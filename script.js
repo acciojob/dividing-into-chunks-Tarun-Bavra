@@ -12,7 +12,7 @@ const divide = (arr, n) => {
 			if(sum<=n)
 			{
 			 subarr.push(arr[j])
-			ans.push(...subarr);
+			ans.push(subarr);
 			}
 		} 
 	}
