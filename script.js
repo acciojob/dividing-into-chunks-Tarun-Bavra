@@ -9,15 +9,15 @@ const divide = (arr, n) => {
 		let sum=0;
 		for (let j = i; j < l; j++)
 		{
-		   sum=sum+arr[j]//1,3,
+		   sum=sum+arr[j]//1,3,6
 			if(sum<=n)//n=4
 			{
 			 subarr=susubarr.push(arr[j])//subarr=[1,2]
-			 ans.push(subarr);//ans=[[1],]
 			}
+			ans = ans.push(subarr);
 		} 
 	}
 	return ans;
 };
-const n = prompt("Enter n: ");
-alert(JSON.stringify(divide(arr, n)));
+// const n = prompt("Enter n: ");
+// alert(JSON.stringify(divide(arr, n)));
