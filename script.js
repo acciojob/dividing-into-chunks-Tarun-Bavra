@@ -12,7 +12,7 @@ const divide = (arr, n) => {
 		   sum=sum+arr[j]//1,3,6
 			if(sum<=n)//n=4
 			{
-			 subarr=push(arr[j])//subarr=[1,2]
+			 subarr=subarr.push(arr[j])//subarr=[1,2]
 			}
 			ans = ans.push(subarr);
 		} 
